@@ -1,0 +1,9 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:set value="${pageContext.request.contextPath }" var="blog" />
+<!-- 下面是easyui的环境 -->
+<link rel="stylesheet" href="${blog }/static/themes/icon.css" type="text/css"></link>
+<link rel="stylesheet" href="${blog }/static/themes/default/easyui.css" type="text/css"></link>
+<script type="text/javascript" src="${blog}/static/jquery.min.js"></script>
+<script type="text/javascript" src="${blog}/static/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="${blog}/static/locale/easyui-lang-zh_CN.js"></script>
